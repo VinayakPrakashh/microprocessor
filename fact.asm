@@ -1,0 +1,15 @@
+.model small
+.stack 100H
+.code
+
+MOV AX,0001H
+MOV SI,2000H
+MOV CL,[SI]
+INC SI
+TOP: MUL CL
+DEC CL
+JNZ TOP
+MOV AH,4CH
+INT 21H
+END
+
