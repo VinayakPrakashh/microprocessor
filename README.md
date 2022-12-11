@@ -1,2 +1,0 @@
-# microprocessor
-asm codes
