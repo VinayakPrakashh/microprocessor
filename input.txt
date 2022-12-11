@@ -3,4 +3,4 @@ z:
 mount -u c:
 mount c: ~/8086
 c:
-masm
+masmeeee
